@@ -15,14 +15,14 @@ logger = logging.getLogger(__name__)
 @Client.on_message(filters.command("start"))
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        buttons = [
+        buttons = [[
             [
                 InlineKeyboardButton('🎀 Channel', url='https://t.me/CP_Archivedmovies')
             ],
             [
                 InlineKeyboardButton('🚀 Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
-            ]
+            ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
 
         if not await db.get_chat(message.chat.id):
