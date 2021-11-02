@@ -18,8 +18,8 @@ async def start(client, message):
         buttons = [[
             [
                 InlineKeyboardButton('🎀 Channel', url='https://t.me/CP_Archivedmovies')
-            ],
-            [
+           ] 
+           ,[
                 InlineKeyboardButton('🚀 Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]] 
