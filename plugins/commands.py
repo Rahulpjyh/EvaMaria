@@ -15,14 +15,14 @@ logger = logging.getLogger(__name__)
 @Client.on_message(filters.command("start"))
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        buttons = [[
+        buttons = [
             [
                 InlineKeyboardButton('🎀 Channel', url='https://t.me/CP_Archivedmovies')
-           ] 
-           ,[
+           ],
+           [
                 InlineKeyboardButton('🚀 Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
-            ]] 
+            ]
         reply_markup = InlineKeyboardMarkup(buttons)
 
         if not await db.get_chat(message.chat.id):
@@ -34,7 +34,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [
+        buttons = [[
             InlineKeyboardButton('🔹 Channel 🔹', url=f'https://t.me/CP_Archivedmovies')
             ]
 
@@ -42,7 +42,7 @@ async def start(client, message):
             ,[
             InlineKeyboardButton('🚀 Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
-        ]
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
