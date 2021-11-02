@@ -348,7 +348,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have sent files in pm',show_alert = True)
+                await query.answer('File ഞാൻ സ്വകാര്യമായി (PM) അയച്ചിട്ടുണ്ട്.... അവിടെ പോയി നോക്ക് ഫയൽ ഉണ്ട് 😜....',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -358,7 +358,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+            await query.answer("എന്നോട് കളിക്കല്ലേ മോനെ😉... നീ ആദ്യം ജോയിൻ ചെയ്യ്‌.....",show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files = (await get_file_details(file_id))[0]
@@ -384,11 +384,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
-            ],[
+            InlineKeyboardButton('🔹 Channel 🔹', url=f'https://t.me/CP_Archivedmovies')
+            ]
+
+            ,[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
