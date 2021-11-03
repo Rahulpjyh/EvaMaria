@@ -9,13 +9,13 @@ My Name is <a href='https://t.me/Filter_free_bot'>Samantha</a>, \n𝙸 can provi
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ My Name: Samantha
-✯ Creator: @rahulp_r
-✯ Library: Pyrogram
+    ABOUT_TXT = """✯ <b>My Name: Samantha </b>
+✯ Creator: <a href='https://t.me/rahulp_r'>This Person</a> 
+✯ <b>Library: Pyrogram</b>
 ✯ <b>Language: Python 3</b>
-✯ Data Base: MONOGO DB
-✯ Server: HEROKU
-✯ Build Status: v1.0.1 [BETA]""" 
+✯ <b>Data Base: MONOGO DB</b>
+✯ <b>Server: HEROKU</b>
+✯ <b>Build Status: v1.0.1 [BETA]</b>""" 
 
 
 
