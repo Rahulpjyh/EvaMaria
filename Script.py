@@ -22,16 +22,16 @@ My Name is <a href='https://t.me/Filter_free_bot'>Samantha</a>, \n𝙸 can provi
 
     SOURCE_TXT = """<b>NOTE:</b>
 - Samantha is not a open source project. 
-- Source code will be released soon \n - Join my update channel to be updated.. 
+- Source code will be released soon \n - Join my update channel @CP_Archivedmovies to be updated.. 
 
 <b>DEVS:</b>
-🔹 <a href=https://t.me/rahulp_r>This Person</a>  \n 🔹 <a href='https://t.me/Kalamadan_123'>This Person</a>"""
+🔹 <a href=https://t.me/rahulp_r>This Person</a>  \n🔹 <a href='https://t.me/Kalamadan_123'>This Person</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and I will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Samantha should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -46,11 +46,11 @@ My Name is <a href='https://t.me/Filter_free_bot'>Samantha</a>, \n𝙸 can provi
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Samantha supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/CP_Archivedmovies)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
