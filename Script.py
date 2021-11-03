@@ -10,7 +10,7 @@ My Name is <a href='https://t.me/Filter_free_bot'>Samantha</a>, \n𝙸 can provi
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ <b>My Name: Samantha </b>
-✯ Creator: <a href='https://t.me/rahulp_r'>This Person</a> 
+✯ <b>Creator: <a href='https://t.me/rahulp_r'>This Person</a> </b> 
 ✯ <b>Library: Pyrogram</b>
 ✯ <b>Language: Python 3</b>
 ✯ <b>Data Base: MONOGO DB</b>
@@ -21,11 +21,11 @@ My Name is <a href='https://t.me/Filter_free_bot'>Samantha</a>, \n𝙸 can provi
 
 
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- Samantha is not a open source project. 
+- Source code will be released soon \n - Join my update channel to be updated.. 
 
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+🔹 <a href=https://t.me/rahulp_r>This Person</a>  \n 🔹 <a href='https://t.me/Kalamadan_123'>This Person</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
