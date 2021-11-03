@@ -25,7 +25,7 @@ My Name is <a href='https://t.me/Filter_free_bot'>Samantha</a>, \n𝙸 can provi
 - Source code will be released soon \n - Join my update channel @CP_Archivedmovies to be updated.. 
 
 <b>DEVS:</b>
-🔹 <a href=https://t.me/rahulp_r>This Person</a>  \n🔹 <a href='https://t.me/Kalamadan_123'>This Person</a>"""
+🔹 <a href=https://t.me/rahulp_r>This Person</a>  \n🔹 <a href='https://t.me/Kalamadan_123'>This Person</a> \n🔹<a href='tg://settings'>This Person</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and I will respond whenever a keyword is found the message
