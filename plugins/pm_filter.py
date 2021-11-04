@@ -350,7 +350,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
                 await query.answer('File ഞാൻ സ്വകാര്യമായി (PM) അയച്ചിട്ടുണ്ട്.... അവിടെ പോയി നോക്ക് ഫയൽ ഉണ്ട് 😜....',show_alert = True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot mahn !',show_alert = True)
+            await query.answer('നീ എന്നെ BLOCK ആക്കി വച്ചിരിക്കുകയാണ്🤕..... എന്നെ UN-BLOCK ചെയ്താലേ നിനക്ക് പടം അയക്കാൻ കഴിയുകയുള്ളൂ🤐🤐.....',show_alert = True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
         except Exception as e:
